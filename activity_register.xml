@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android.support.design="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_red_light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <TextView
+            android:text="Register"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="@android:style/TextAppearance.Theme"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+
+
+
+            <ImageView android:id="@+id/image_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/user_stub"
+                android:layout_gravity="center_horizontal" />
+
+    <Button android:id="@+id/btn_add_photo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:text="Photo"
+        android:textColor="@android:color/black"
+        android:background="@drawable/btn_selector"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText android:id="@+id/txt_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"/>
+    <EditText android:id="@+id/txt_emailreg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"/>
+    <EditText android:id="@+id/txt_passwordreg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText android:id="@+id/txt_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"/>
+    <EditText android:id="@+id/txt_occupation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Occupation"
+        android:inputType="text"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"/>
+    <EditText android:id="@+id/txt_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:text="By submiting I agree to TERMS AND CONDITIONS"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Theme"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:text="SUBMIT"/>
+
+</LinearLayout>
+</ScrollView>
